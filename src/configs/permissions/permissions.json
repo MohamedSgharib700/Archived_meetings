@@ -1,0 +1,12 @@
+[
+  {
+    "name": "roles",
+    "exstra": ["push"],
+    "except": ["list"]
+  },
+  {
+    "name": "permissions",
+    "exstra": [],
+    "except": []
+  }
+]

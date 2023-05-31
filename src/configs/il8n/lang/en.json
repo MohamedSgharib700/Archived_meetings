@@ -1,0 +1,44 @@
+{
+  "validation": {
+    "video": {
+      "description": {
+        "required": "description is required.",
+        "string": "description must be a text."
+      },
+      "url": {
+        "required": "the video file is required."
+      },
+      "category": {
+        "required": "the category is required.",
+        "min": "must select 1 category at least."
+      }
+    },
+    "category": {
+      "name": {
+        "required": "category name is required.",
+        "string": "category name must be a text."
+      }
+    },
+    "user": {
+      "name": {
+        "required": "name is required."
+      },
+
+      "email": {
+        "required": "email is required."
+      },
+
+      "currentPassword": {
+        "required": "current password is required."
+      },
+      "password": {
+        "required": "password is required."
+      },
+      "passwordConfirm": {
+        "required": "password confirm is required.",
+        "valid": "Password confirmation does not match password."
+      }
+    }
+  },
+  "not-found": "Not Found."
+}
